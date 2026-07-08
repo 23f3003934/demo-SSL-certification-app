@@ -51,7 +51,7 @@ def get_stats(values: str = Query(...)):
     mean = total_sum / count
 
     return {
-        "email": "YOUR_EXACT_LOGGED_IN_EMAIL@example.com",  # UPDATE THIS LINE
+        "email": "23f3003934@ds.study.iitm.ac.in",  # UPDATE THIS LINE
         "count": count,
         "sum": total_sum,
         "min": minimum,
